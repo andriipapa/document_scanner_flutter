@@ -41,7 +41,6 @@ public class SwiftDocumentScannerFlutterPlugin: NSObject, FlutterPlugin {
 
         if #available(iOS 13.0, *) {
             scannerViewController.overrideUserInterfaceStyle = .dark
-            scannerViewController.navigationBar.backgroundColor = .white
         }
 
         rootViewController?.present(scannerViewController, animated:true, completion:nil)
